@@ -1,0 +1,6 @@
+.product_list {
+  display: flex;
+  align-items: center;
+  margin: 56px auto;
+  min-height: 1056px;
+}

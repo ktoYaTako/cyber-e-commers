@@ -1,0 +1,22 @@
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
+
+.ButtonBlackBig {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 16px 56px 16px 56px;
+  box-sizing: border-box;
+  border: 1px black solid;
+  border-radius: 6px;
+  background-color: transparent;
+  font-family: SF Pro Display, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.ButtonBlackBig:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}

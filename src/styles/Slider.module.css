@@ -1,0 +1,48 @@
+.card {
+  max-height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img img {
+  width: 370px;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 32px 56px 32px;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card3 {
+  background: rgb(234, 234, 234);
+}
+.card4 {
+  background: rgb(44, 44, 44);
+}
+
+@media (max-width: 1200px) {
+  .card {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-item .card {
+    width: 100%;
+  }
+}

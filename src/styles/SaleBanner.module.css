@@ -1,0 +1,48 @@
+.banner_2 {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    151.21deg,
+    rgb(46, 46, 46) 42.499%,
+    rgb(0, 0, 0) 98.675%
+  );
+  min-height: 448px;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title_box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: auto 0;
+}
+
+.title_box h1 {
+  font-size: 72px;
+  line-height: 72px;
+}
+
+.pro {
+  font-weight: 600;
+}
+
+.left_img {
+  display: flex;
+  flex-direction: column;
+}
+
+.right_img {
+  display: flex;
+  flex-direction: column;
+}

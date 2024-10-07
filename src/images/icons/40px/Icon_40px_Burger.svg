@@ -1,0 +1,16 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip156_1320">
+			<rect id="Icon/40px/Burger" rx="-0.500000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Icon/40px/Burger" rx="-0.500000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip156_1320)">
+		<path id="Vector" d="M32.5 13.75L7.5 13.75L7.5 11.25L32.5 11.25L32.5 13.75Z" fill="#080341" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M32.5 21.25L7.5 21.25L7.5 18.75L32.5 18.75L32.5 21.25Z" fill="#080341" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M32.5 28.75L7.5 28.75L7.5 26.25L32.5 26.25L32.5 28.75Z" fill="#080341" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

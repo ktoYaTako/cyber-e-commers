@@ -1,0 +1,40 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tubBtnGroup {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: first baseline;
+}
+.tabButton {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.tabButton:hover {
+  color: #555;
+}
+
+.active {
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+}
+
+.tabContent {
+  margin: 0 0;
+  align-items: start;
+}

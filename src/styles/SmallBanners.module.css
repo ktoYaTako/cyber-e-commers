@@ -1,0 +1,133 @@
+.small_banners {
+  width: 100%;
+}
+
+.parts_wrapper {
+  width: 100%;
+  flex-direction: row;
+}
+
+.left_part,
+.right_part {
+  width: 50%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  margin: auto 0;
+  padding: 0;
+  text-align: start;
+  padding-left: 56px;
+}
+
+.title_box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: auto 0;
+}
+
+.bottom_part .title_box h1 {
+  font-family: SF Pro Display;
+  font-size: 29px;
+
+  line-height: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  color: rgb(145, 145, 145);
+  font-family: "SF Pro Display";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.pro {
+  font-weight: 600;
+}
+.img {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* right_part */
+
+.right_part {
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right_part .text_info {
+  align-items: start;
+}
+
+.info_right_part {
+  display: flex;
+  flex-direction: row;
+}
+
+.small_banners_btn {
+  align-items: start;
+}
+
+/* LEFT PART */
+.left_upper_part {
+  min-height: 328px;
+}
+
+.left_bottom_part {
+  background-color: rgb(237, 237, 237);
+}
+
+.right_bottom_part {
+  background-color: rgb(53, 53, 53);
+}
+
+.left_bottom_part .img img {
+  width: 100%; /* Заполняет всю ширину */
+  height: 100%; /* Заполняет всю высоту */
+  object-fit: cover; /* Масштабирует, сохраняя пропорции и заполняет блок */
+  object-position: left bottom; /* Позиционирует по левому нижнему углу */
+}
+
+.left_bottom_part,
+.right_bottom_part {
+  min-height: 272px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto 0;
+}
+
+.title_box_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto 0;
+}
+
+/* MEDIA SEARCH */
+@media (max-width: 1200px) {
+  .parts_wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .info_right_part {
+    flex-direction: column;
+  }
+}

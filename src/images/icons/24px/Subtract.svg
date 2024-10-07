@@ -1,0 +1,20 @@
+<svg width="25.033081" height="25.033081" viewBox="0 0 25.0331 25.0331" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_210_1204_dd" x="0.000000" y="0.000000" width="25.033081" height="25.033081" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_210_1204_dd)">
+		<path id="Subtract" d="M12.5882 4.44495L5.70935 11.3237L4.94617 12.2036L4.93506 12.2242L4.6264 13.3473L4.00714 16.4435L4 17.0262L4.00696 17.0331L4.5896 17.0259L7.68579 16.4067L8.80884 16.098L8.82959 16.0869L9.70935 15.3237L16.6073 8.42578Q16.4991 8.35803 16.392 8.2879Q15.7206 7.84863 15.1133 7.33374Q14.4771 6.79437 13.9113 6.17206Q13.3453 5.54974 12.8688 4.8653Q12.7244 4.65796 12.5882 4.44495ZM18.0654 6.96771L19.8615 5.17157C20.4068 4.62634 20.6794 4.3537 20.8251 4.05963C21.1024 3.50006 21.1024 2.84308 20.8251 2.28357C20.6794 1.98944 20.4068 1.7168 19.8615 1.17157C19.3163 0.626343 19.0436 0.353699 18.7496 0.207947C18.19 -0.0693359 17.533 -0.0693359 16.9735 0.207947C16.6794 0.353699 16.4068 0.626343 15.8615 1.17157L14.0428 2.9903Q14.2606 3.36377 14.5067 3.71753Q14.9108 4.29852 15.391 4.8266Q15.8711 5.35461 16.4111 5.81195Q16.9222 6.24481 17.487 6.61432Q17.7715 6.80048 18.0654 6.96771Z" clip-rule="evenodd" fill="#222222" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

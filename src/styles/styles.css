@@ -1,0 +1,99 @@
+@import url("https://v1.fontapi.ir/css/SFProDisplay");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main.main {
+  flex: 1 1 auto;
+}
+
+.box_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 120px;
+}
+.box_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.display_3 {
+  color: rgb(0, 0, 0);
+  font-family: SF Pro Display;
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 56px;
+}
+.display_3_white {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 56px;
+}
+
+.description {
+  color: rgb(145, 145, 145);
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* ================================= Media Search ========================================= */
+@media (max-width: 1200px) {
+  .box_1 {
+    margin: 0 16px;
+  }
+  .box-2 {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .box_1 {
+    justify-content: space-between;
+    margin: 0 16px;
+  }
+  .box_2 {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+}
+/* ================================= Media Search ========================================= */

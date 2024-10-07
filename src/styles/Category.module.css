@@ -1,0 +1,18 @@
+.categories {
+  margin: 80px 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.btn_arrow {
+  border: none;
+  background-color: transparent;
+}
+
+.right {
+  transform: rotate(180deg);
+}
