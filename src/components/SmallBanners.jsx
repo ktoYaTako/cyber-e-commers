@@ -35,7 +35,7 @@ const SmallBanners = () => {
 
                 <div className={`${styles.bottom_part} row mx-0`}>  
                   <div className={`${styles.left_bottom_part} col-md-6 px-0`}>
-                    <div className={`${styles.info_left_bottom_part} row mx-0`}>
+                    <div className={`${styles.info_left_bottom_part} row`}>
                       <div className={`${styles.img} col-md-4 px-0`}>
                         <img
                           src={imgContent.airPodsPro}
@@ -59,15 +59,15 @@ const SmallBanners = () => {
                   </div>
 
                   <div className={`${styles.right_bottom_part} col-md-6 px-0`}>
-                    <div className={`${styles.info_right_bottom_part} row px-0`}>
-                      <div className={`${styles.img} col-md-4`}>
+                    <div className={`${styles.info_right_bottom_part} row `}>
+                      <div className={`${styles.img} col-md-5 `}>
                         <img
                           src={imgContent.visionPro}
                           alt="Apple Vision"
                           className={styles.img_fluid}
                         />
                       </div>
-                      <div className={`${styles.text_info} col-md-8`}>
+                      <div className={`${styles.text_info} col-md-7`}>
                         <div className={`${styles.title_box} ${styles.title_box_bottom}`}>
                           <h1 className="display_3_white">Apple</h1>
                           <div className={styles.title}>

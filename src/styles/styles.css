@@ -73,6 +73,12 @@ main.main {
   align-items: center;
 }
 
+.slider-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* ================================= Media Search ========================================= */
 @media (max-width: 1200px) {
   .box_1 {
@@ -90,8 +96,14 @@ main.main {
     justify-content: space-between;
     margin: 0 16px;
   }
-  .box_2 {
-    display: block;
+
+  .products {
+    margin-top: 56px;
+    align-items: center;
+  }
+  .title_box {
+    align-items: center;
+    text-align: center;
   }
 }
 @media (max-width: 768px) {

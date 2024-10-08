@@ -1,42 +1,73 @@
 .card {
-  max-height: 640px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100%;
+  max-height: 400px; /* Максимальная высота для ограничения высоты */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Чтобы ограничить размер */
 }
 
 .img img {
-  width: 370px;
-  height: 100%;
+  width: auto; /* Сохраняет исходные пропорции изображения */
+  height: 100%; /* Высота растягивается до границ контейнера */
 }
 
 .info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 32px 56px 32px;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
 .text_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.display_3,
+.display_3_white {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin: 12px 0;
+  text-align: center;
 }
 
 .card3 {
   background: rgb(234, 234, 234);
 }
+
 .card4 {
   background: rgb(44, 44, 44);
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
-  .card {
+  .col-6 {
     flex: 0 0 50%;
+    min-width: 100%;
   }
 }
 
 @media (max-width: 992px) {
+  .carousel {
+    width: 100% !important;
+  }
   .carousel-item {
     display: flex;
     justify-content: center;
@@ -44,5 +75,19 @@
 
   .carousel-item .card {
     width: 100%;
+  }
+  .card {
+    min-height: 712px;
+    max-width: 100%; /* Убедитесь, что карта занимает всю ширину */
+    width: auto;
+  }
+  .carousel-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    min-height: 100%;
   }
 }
